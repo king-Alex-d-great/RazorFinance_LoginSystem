@@ -11,8 +11,8 @@ namespace RazorFinanceLoginSystem
         Database database = new Database();
        public static void Main()
        {
-            var newAut = new Application();
-             newAut.Run().Wait();
+            var application = new Application();
+            application.Run().Wait();
        }         
     }
 }
